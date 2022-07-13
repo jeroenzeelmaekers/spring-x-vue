@@ -1,0 +1,33 @@
+type Query {
+    notes: [Note]
+    noteById(id: ID!): Note
+    notesByAuthorId(id: ID!): [Note]
+    authors: [Author]
+    authorById(id: ID!): Author
+}
+
+type Mutation {
+    addNote(authorId: ID!, content: String!): Note
+    updateNote(noteId: ID!, content: String!): Note
+    deleteNote(noteId: ID!): Boolean
+    addAuthor(author: AuthorInput!): Author
+}
+
+input AuthorInput {
+    firstName: String!
+    lastName: String!
+    email: String!
+}
+
+type Note {
+    id: ID!
+    content: String!
+    author: Author!
+}
+
+type Author {
+    id: ID!
+    firstName: String!
+    lastName: String!
+    email: String!
+}
