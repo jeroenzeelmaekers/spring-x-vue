@@ -1308,6 +1308,15 @@
   dependencies:
     "@types/node" "*"
 
+"@vue/apollo-composable@^4.0.0-alpha.18":
+  version "4.0.0-alpha.18"
+  resolved "https://registry.yarnpkg.com/@vue/apollo-composable/-/apollo-composable-4.0.0-alpha.18.tgz#e79fbea5bc4477bf6e305a52c5a2c41a030a27eb"
+  integrity sha512-AasMZnAOG9fH+vcnQu6C3eyBMWXCsjdF0Njh7gGzQYBdo/CG9g9OKtrmHizq5AbgR2KJe/0RHE9yLBj7SZrcdQ==
+  dependencies:
+    throttle-debounce "^3.0.1"
+    ts-essentials "^9.1.2"
+    vue-demi "^0.13.1"
+
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
   resolved "https://registry.npmmirror.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.2.1.tgz#31624a7a505fb14da1d58023725a4c5f270e6a81"
@@ -3441,6 +3450,11 @@ graphql-tag@^2.12.6:
   integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
   dependencies:
     tslib "^2.1.0"
+
+graphql@^16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.5.0.tgz#41b5c1182eaac7f3d47164fb247f61e4dfb69c85"
+  integrity sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA==
 
 gzip-size@^6.0.0:
   version "6.0.0"
@@ -5700,6 +5714,11 @@ thread-loader@^3.0.0:
     neo-async "^2.6.2"
     schema-utils "^3.0.0"
 
+throttle-debounce@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-3.0.1.tgz#32f94d84dfa894f786c9a1f290e7a645b6a19abb"
+  integrity sha512-dTEWWNu6JmeVXY0ZYoPuH5cRIwc0MeGbJwah9KUNYSJwommQpCzTySTpEe8Gs1J23aeWEuAobe4Ag7EHVt/LOg==
+
 thunky@^1.0.2:
   version "1.1.0"
   resolved "https://registry.npmmirror.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
@@ -5731,6 +5750,11 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.npmmirror.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
+ts-essentials@^9.1.2:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-9.2.0.tgz#a6ec69b43d111f107b3e63e27b200d2d22542b55"
+  integrity sha512-HLl+am6q+ulOWcjUFghpIQXXyaH0hVTnFTVWNqwz1iDxyN+t+lwDfqPB5FmPUTFw3J+y26UR3hNGmK/1jehokA==
 
 ts-invariant@^0.10.3:
   version "0.10.3"
@@ -5859,6 +5883,11 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
+
+vue-demi@^0.13.1:
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.4.tgz#fcb320892d78d3a7ec227024776f77d9a5c4831d"
+  integrity sha512-KP4lq9uSz0KZbaqCllRhnxMV3mYRsRWJfdsAhZyt5bV5O1RTpoeDptBRV9NOa/JgOpfaA9ane88VF7OjWNK/DA==
 
 vue-eslint-parser@^8.0.1:
   version "8.3.0"
