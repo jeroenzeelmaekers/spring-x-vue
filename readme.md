@@ -3,14 +3,14 @@ Spring x Vue 3
 </h3>
 
 <p align="center">
-An single deployable jar that contains both Spring Boot and Vue 3.
+An single deployable jar that contains both Spring and Vue 3.
 </p>
 
 <hr/>
 
 ## Documentation
 
-The Spring Boot backend API is responsable for building Vue when being deployed to a Docker container. Additionally Docker Compose is configured with a PostgresQL database.
+The Spring backend API is responsable for building Vue when being deployed to a Docker container. Additionally Docker Compose is configured with a PostgresQL database.
 
 ## Packages
 
