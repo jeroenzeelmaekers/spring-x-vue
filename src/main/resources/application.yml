@@ -12,10 +12,12 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     properties:
       dialect: org.hibernate.dialect.PostgresSQLDialect
 
   graphql:
     graphiql:
       enabled: true
+      path: /api/graphiql
+    path: /api/graphql
