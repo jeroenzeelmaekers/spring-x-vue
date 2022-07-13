@@ -10,5 +10,4 @@ public class SpringXVueApplication {
         SpringApplication.run(SpringXVueApplication.class, args);
     }
 
-
 }
