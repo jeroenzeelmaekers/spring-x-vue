@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-x-vue
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring-x-vue-db
+    username: springxvue
+    password: springxvue
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      dialect: org.hibernate.dialect.PostgresSQLDialect
+
+  graphql:
+    graphiql:
+      enabled: true
