@@ -17,6 +17,7 @@ public class Note {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Column(length = 1024)
     private String content;
     @ManyToOne
     private Author author;

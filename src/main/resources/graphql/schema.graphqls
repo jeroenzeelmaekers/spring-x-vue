@@ -1,7 +1,7 @@
 type Query {
     notes: [Note]
     noteById(id: ID!): Note
-    notesByAuthorId(id: ID!): [Note]
+    notesByAuthorId(authorId: ID!): [Note]
     authors: [Author]
     authorById(id: ID!): Author
 }

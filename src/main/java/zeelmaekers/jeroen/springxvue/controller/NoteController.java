@@ -16,7 +16,7 @@ public record NoteController(NoteService noteService) {
     }
 
     @QueryMapping
-    private Note getNoteById(@Argument Long noteId) {
+    private Note noteById(@Argument Long noteId) {
         try {
             return noteService.noteById(noteId);
         } catch (Exception e) {
@@ -25,7 +25,7 @@ public record NoteController(NoteService noteService) {
     }
 
     @QueryMapping
-    private Iterable<Note> getNotesByAuthorId(@Argument Long authorId) {
+    private Iterable<Note> notesByAuthorId(@Argument Long authorId) {
         return noteService.notesByAuthorId(authorId);
     }
 
